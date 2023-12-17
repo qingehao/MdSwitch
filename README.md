@@ -1,4 +1,4 @@
-![](images\image.png)
+<img src="images\image.png" alt="" style="zoom: 100%;" />
 
 # MdSwitch
 
@@ -26,13 +26,13 @@ MdSwitch旨在为这种场景下提供一种优雅的免人工接线的方案，
 
 我选择芯片方案的封装大小。最先想到是4052系列的模拟开关
 
-![](images\image2.png)
+<img src="images\image2.png" alt="" style="zoom: 100%;" />
 
 但是其支持的信号带宽似乎不足以支持SWD的信号频率，目前市面上JLINK普遍支持的最高是12M~25M的速率。逛了很久的立创商城，发现了一款：
 
 WAS4735Q。最高支持1.2GHz的带宽
 
-![](images\image3.png)
+<img src="images\image3.png" alt="" style="zoom: 100%;" />
 
 ##### 关于电池
 
@@ -42,7 +42,7 @@ WAS4735Q。最高支持1.2GHz的带宽
 
 ​     另外，电池相关的电路是可以旁路掉的 短接R10，电池相关功能即被禁用，其相关芯片也可不焊接
 
-![](images\image4.png)
+<img src="images\image4.png" alt="" style="zoom: 100%;" />
 
 ##### 其他想起来再说吧~
 
